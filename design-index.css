@@ -1,0 +1,22 @@
+
+.div-slogan {
+    
+    text-align: center;
+}
+
+#carouselExampleIndicators {
+
+    background-color: #000;
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.carousel-inner img{
+
+    width: 20px;
+    height: 50px;
+    
+}
