@@ -1,0 +1,65 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3500">
+            <div class="caroulsel-inner"> 
+                <!--slider underneath slide, each <li> is relative for each slide-->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>
+                
+                <!--slides images=1920x1080-->
+                <div class="carousel-item active"
+                style="background-image: url(https://storage.googleapis.com/pyre-site/uploads/post/cover/1386/Screen-Shot-2019-04-15-at-10.51.54-PM.png);">
+                    <div class="container">
+                        <h1>Torne seus dias mais emocionantes!!!</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet 
+                            consectetur adipisicing elit. 
+                            Ad exercitationem voluptatum placeat 
+                            illo tempora sapiente et commodi laboriosam 
+                            cupiditate laborum, nesciunt magnam dolorem 
+                            dolor pariatur velit voluptate ratione sequi 
+                            nobis?
+                        </p>
+                    </div   >
+                </div>  
+
+                <div class="carousel-item"
+                style="background-image: url(https://i.pinimg.com/originals/bd/0e/27/bd0e2771ae87fce05209f6d9aeba1c4d.jpg);">
+                    <div class="container">
+                        <h1>Torne seus dias mais emocionantes!!!</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet 
+                            consectetur adipisicing elit. 
+                            Ad exercitationem voluptatum placeat 
+                            illo tempora sapiente et commodi laboriosam 
+                            cupiditate laborum, nesciunt magnam dolorem 
+                            dolor pariatur velit voluptate ratione sequi 
+                            nobis?
+                        </p>
+                    </div   >
+                </div> 
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--opções de menu-->
+        <div class="bloco">
+            <div class="div-menu-opcoes">
+                <img 
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/69f1bd5c-ea7a-4c8e-99df-61511a55c3e3/d3c1qp9-1aae8999-427c-4c4b-b48f-9614e4f74cc7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY5ZjFiZDVjLWVhN2EtNGM4ZS05OWRmLTYxNTExYTU1YzNlM1wvZDNjMXFwOS0xYWFlODk5OS00MjdjLTRjNGItYjQ4Zi05NjE0ZTRmNzRjYzcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5kkrfSilx5EYTnnpbgIkzEzVRQrrWqK6_Zso6yWtvok">
+                <!--<button type="button" class="btn btn-success">Success</button>-->
+            </div>
+        </div>
