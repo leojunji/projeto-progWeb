@@ -1,4 +1,5 @@
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3500">
+<div class="div-slide">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3500">
             <div class="caroulsel-inner"> 
                 <!--slider underneath slide, each <li> is relative for each slide-->
                 <ol class="carousel-indicators">
@@ -10,7 +11,7 @@
                 <div class="carousel-item active"
                 style="background-image: url(https://storage.googleapis.com/pyre-site/uploads/post/cover/1386/Screen-Shot-2019-04-15-at-10.51.54-PM.png);">
                     <div class="container">
-                        <h1>Torne seus dias mais emocionantes!!!</h1>
+                        <h1>Se aventure em outras realidades!!!</h1>
                         <p>
                             Lorem ipsum dolor sit amet 
                             consectetur adipisicing elit. 
@@ -41,25 +42,27 @@
 
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!--opções de menu-->
-        <div class="bloco">
-            <div class="div-menu-opcoes">
-                <img 
-                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/69f1bd5c-ea7a-4c8e-99df-61511a55c3e3/d3c1qp9-1aae8999-427c-4c4b-b48f-9614e4f74cc7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY5ZjFiZDVjLWVhN2EtNGM4ZS05OWRmLTYxNTExYTU1YzNlM1wvZDNjMXFwOS0xYWFlODk5OS00MjdjLTRjNGItYjQ4Zi05NjE0ZTRmNzRjYzcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5kkrfSilx5EYTnnpbgIkzEzVRQrrWqK6_Zso6yWtvok">
-                <!--<button type="button" class="btn btn-success">Success</button>-->
-            </div>
         </div>
+
+
+
+        .div-slide {
+    padding-top: 30px;
+
+}
+.container {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 30px;
+}
+
+.carousel-item { /*each slide*/
+    height: 32rem;
+    background-color: gray;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}

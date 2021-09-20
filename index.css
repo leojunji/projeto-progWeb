@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+
+
+
+/*menu*/
+
+    .div-menu {
+        background-color: green; /*do menu inteiro*/
+        height: 200px;
+    }
+
+    /*cabecalho*/
+    .div-slogan h1{
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Alfa Slab One', cursive;
+        position: fixed;
+        color: yellow;   
+    }
+
+
+
+    .logo-menu { /*esquerda*/
+        position: fixed;
+        top: 0px;
+        left: 0px; /*distância do lado esquerdo da página*/
+    }
+
+    .logo-menu img  { /*esquerda*/
+        width: 120px;
+        height: 120px;   
+    }
+
+
+    /*opcoes do menu*/
+    .opcoes-menu { /*meio*/
+        position: fixed;
+        top: 100px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        
+    }
+    
+    .botao { /*meio*/
+        margin: 5px;
+        padding-top: 45px;
+        float: left;
+    }
+
+
+
+    /*icones do menu*/
+    .icones-menu { /*direita*/
+        position: fixed;
+        top: 100px;
+        right: 10px;
+    }
+    
+    .btn img { /*direita*/
+        width: 30px;
+        height: 30px;
+    
+    } 
